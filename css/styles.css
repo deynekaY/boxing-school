@@ -191,7 +191,7 @@ table.schedule__table {
     border-bottom: none;
 }
 
-tr.schedule__cols-names {
+tr.schedule__table-cols {
     background: #d62324;
 }
 
@@ -230,7 +230,7 @@ tr th {
     border-top: none;
 }
 
-td.schedule__day {
+td.schedule__rows-day {
     font-size: 18px;
     line-height: 1.56;
     font-family: Roboto, sans-serif;
