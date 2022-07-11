@@ -20,17 +20,11 @@ aside.schedule__title {
     display: block;
 }
 
-aside.schedule__title::after {
-    content: "";
-    position: absolute;
+.schedule__title-divider {
+    border-bottom: 2px solid var(--red);
     width: 50px;
-    height: 2px;
-    background-color: #d62324;
-    left: 48%;
-    bottom: 70%;
+    margin: -3px 48%;
 }
-
-
 
 section.schedule aside.schedule__title {
     font-size: 56px;
